@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "*"
+"Jinja2" = "*"
+MarkupSafe = "*"
+SQLAlchemy = "*"
+Werkzeug = "*"
+itsdangerous = "*"
+jsonschema = "*"
+nose = "*"
+"psycopg2" = "*"
+"psycopg2-binary" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
